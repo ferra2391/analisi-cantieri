@@ -1,5 +1,5 @@
 
-const sheetUrl = "https://docs.google.com/spreadsheets/d/1glvkWLOpUhdBUmY4j-2DJoXQvY6dnQD_OQkYYCaXXEQ/edit?usp=sharing/Foglio1";
+const sheetUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSSI-L-VnUodcViZlPl-a9dNKAmWOa8joBuzaAYPAn46k5BDjeFNFU7Asfv3R8hsW5dqzr--zZnM4vh/pubhtml?gid=0&single=true/Foglio1";
 
 fetch(sheetUrl)
   .then(res => res.json())
