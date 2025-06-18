@@ -1,6 +1,7 @@
 
 const sheetUrl = "https://opensheet.elk.sh/1glvkWLOpUhdBUmY4j-2DJoXQvY6dnQD_OQkYYCaXXEQ/Foglio1";
 
+
 fetch(sheetUrl)
   .then(res => res.json())
   .then(data => {
